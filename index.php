@@ -3,7 +3,7 @@
 
 <head>
 
-    <script src="https://www.google.com/recaptcha/api.js?render=6LdS0OEUAAAAAB7Xa1icN9PsXqKdW6ymumCVgJKD"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=your client side key here"></script>
 
 </head>
 
@@ -19,7 +19,7 @@
 
 <script>
     grecaptcha.ready(function() {
-        grecaptcha.execute('6LdS0OEUAAAAAB7Xa1icN9PsXqKdW6ymumCVgJKD', {
+        grecaptcha.execute('your client side key here', {
             action: 'homepage'
         }).then(function(token) {
             console.log(token);
